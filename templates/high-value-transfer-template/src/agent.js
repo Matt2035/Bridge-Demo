@@ -12,7 +12,7 @@ const {
 let findingsCache = [];
 let isScanningRinkeby = false;
 let currentRinkebyBlockNumber = -1;
-const RINKEBY_RPC_URL = "https://rinkeby.infura.io/v3/d855c3d2acb54bf5a5a967e04e39c730";
+const RINKEBY_RPC_URL = "<ENTER_INFURA_ENDPOINT_HERE>";
 const rinkebyProvider = new ethers.providers.JsonRpcProvider(RINKEBY_RPC_URL);
 
 let findingsCount = 0;
@@ -33,8 +33,7 @@ async function scanRinkebyBlocks() {
 
       console.log("rinkeby block", currentRinkebyBlockNumber)
       rinkebyProvider.getLogs({
-            // address: "0xFE439F397f4285a327c0884955c1bFB2770FD8B1",
-            address: "0xB856BCB0ecd646b864C3D2Ae460956E201540682",
+            address: "<ENTER_MAIN_BRIDGE_ADDRESS_HERE>",
             // these blocks can be used for testing
             // fromBlock: 11060000,
             // toBlock: 11060020,
