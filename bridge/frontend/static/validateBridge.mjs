@@ -1,16 +1,16 @@
 import 'https://cdn.esm.sh/v58/web3@1.6.1/es2021/web3.js';
 
 const web3 = new Web3(
-    "https://rinkeby.infura.io/v3/d855c3d2acb54bf5a5a967e04e39c730"
+    "<ENTER_INFURA_ENDPOINT_HERE>"
   );
 
-const MainBridge = "0xFE439F397f4285a327c0884955c1bFB2770FD8B1"; 
-const private_key_1 = "7ad639bfac365c97034f349a42836fd61f4b5ea95f5839090b1e93711dc425f5";
-const val_1 = "0x42A028e9d8f0Bd6858a782AECC90C56B04365a01";
-const private_key_2 = "d9c6173bc2459f95866e706f9833c324f157673c34569bd1510c4067bee3c4cb";
-const val_2 = "0xC4bf9790ceB664D4bAB0FA3d0fb4F9f71aEA9DD4";
-const private_key_3 = "a55bfe038f8418b6000fc30db531818fe22ffb04530e33af850cdb2f022341ae";
-const val_3 = "0x8eb6b5bf64C4f25c7521dA4D97aC783c44F26B25";l
+const MainBridge = "<ENTER_MAIN_BRIDGE_ADDRESS_HERE>"; 
+const private_key_1 = "<ENTER_PRIVATE_KEY_1_HERE>";
+const val_1 = "<ENTER_VALIDATOR_1_ADDRESS_HERE>";
+const private_key_2 = "<ENTER_PRIVATE_KEY_2_HERE>";
+const val_2 = "<ENTER_VALIDATOR_2_ADDRESS_HERE>";
+const private_key_3 = "<ENTER_PRIVATE_KEY_3_HERE>";
+const val_3 = "<ENTER_VALIDATOR_3_ADDRESS_HERE>";
 
 const ABI = [
 	{
