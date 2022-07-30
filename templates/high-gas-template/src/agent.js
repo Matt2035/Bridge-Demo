@@ -8,9 +8,9 @@ const {
 let findingsCache = [];
 let isScanningRinkeby = false;
 let currentRinkebyBlockNumber = -1;
-const RINKEBY_RPC_URL = "https://rinkeby.infura.io/v3/d855c3d2acb54bf5a5a967e04e39c730";
+const RINKEBY_RPC_URL = "<ENTER_INFURA_ENDPOINT_HERE>";
 const rinkebyProvider = new ethers.providers.JsonRpcProvider(RINKEBY_RPC_URL);
-const CONTRACT_ADDRESS = "0xFE439F397f4285a327c0884955c1bFB2770FD8B1"
+const CONTRACT_ADDRESS = "<ENTER_MAIN_BRIDGE_ADDRESS_HERE>"
 
 async function initialize() {
   currentRinkebyBlockNumber = await rinkebyProvider.getBlockNumber();
