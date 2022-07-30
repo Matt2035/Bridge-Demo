@@ -8,7 +8,7 @@ import { ERC20 } from "@openzeppelin/contracts@4.0.0/token/ERC20/ERC20.sol";
 // import { ERC20 } from "OpenZeppelin/openzeppelin-contracts@4.0.0/contracts/token/ERC20/ERC20.sol";
 
 
-contract ImperialCredits is ERC20 {
+contract BridgeCredits is ERC20 {
     constructor(uint256 initialSupply) ERC20("Polygon Ethereum Token", "pETH") {
         _mint(msg.sender, initialSupply);
     }
