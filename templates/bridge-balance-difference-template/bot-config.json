@@ -1,0 +1,16 @@
+{
+    "contract1": {
+      "address": "0xFE439F397f4285a327c0884955c1bFB2770FD8B1",
+      "rpcUrl": "https://rinkeby.infura.io/v3/"
+    },
+    "contract2": {
+      "address": "0x7a9dFD9bD2897a3861a1E24511C9502304Ab5e71",
+      "rpcUrl": "https://polygon-rpc.com/"
+    },
+    "tokens": [
+      {
+        "address1": "0xB856BCB0ecd646b864C3D2Ae460956E201540682",
+        "address2": "0x53af351a15315C78A8BEf238c1dcF38325Dd819B"
+      }
+    ]
+  }
