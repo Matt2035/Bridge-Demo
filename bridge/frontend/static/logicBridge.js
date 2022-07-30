@@ -1,9 +1,9 @@
-const serverUrl = "https://nm8exgxrkcrb.usemoralis.com:2053/server";
-const appId = "EQsElaEJoFvIMWG5OOEEinIol663VC5U17VfEXAb";
+const serverUrl = "<ENTER_SERVER_URL_HERE>";
+const appId = "<ENTER_APP_ID_HERE>";
 Moralis.start({ serverUrl, appId }); 
 
-const mainTokenAddress = "0xB856BCB0ecd646b864C3D2Ae460956E201540682";
-const mainBridgeAddress = "0xFE439F397f4285a327c0884955c1bFB2770FD8B1";
+const mainTokenAddress = "<ENTER_MAIN_TOKEN_ADDRESS_HERE>";
+const mainBridgeAddress = "<ENTER_MAIN_BRIDGE_ADDRESS_HERE>";
 
 login();
 
