@@ -8,14 +8,12 @@ const mainBridgeAddress = "<ENTER_MAIN_BRIDGE_ADDRESS_HERE>";
 login();
 
 
-import { asyncCall } from "./chainlink-price-feed.mjs";
 import { asyncCallClearValidate, asyncCallViewStatus, asyncCallValidate1, asyncCallValidate2, asyncCallValidate3 } from "./validateBridge.mjs";
 window.asyncCallViewStatus = asyncCallViewStatus;
 window.asyncCallClearValidate = asyncCallClearValidate;
 window.asyncCallValidate1 = asyncCallValidate1;
 window.asyncCallValidate2 = asyncCallValidate2;
 window.asyncCallValidate3 = asyncCallValidate3;
-window.asyncCall = asyncCall;
 window.bridge=bridge;
 
 
